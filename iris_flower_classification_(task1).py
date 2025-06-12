@@ -67,32 +67,4 @@ print(confusion_matrix(y_test, y_pred))
 6.  **Evaluates the model** using `accuracy_score`, `classification_report`, and `confusion_matrix`
 """
 
-#task-1:Iris Flower Classification
-● Use measurements of Iris flowers (setosa, versicolor, virginica) as input data.
-● Train a machine learning model to classify the species based on these measurements.
-● Use libraries like Scikit-learn for easy dataset access and model building.
-● Evaluate the model’s accuracy and performance using test data.
-● Understand basic classification concepts in machine learning
-
-
-
-# prompt: #task-1:Iris Flower Classification
-# ● Use measurements of Iris flowers (setosa, versicolor, virginica) as input data.
-# ● Train a machine learning model to classify the species based on these measurements.
-# ● Use libraries like Scikit-learn for easy dataset access and model building.
-# ● Evaluate the model’s accuracy and performance using test data.
-# ● Understand basic classification concepts in machine learning generate code and theory
-
-This file already contains the complete code and steps for the Iris Flower Classification task as described in the comment.
-
-It performs the following:
-1.  **Loads the Iris dataset** using `sklearn.datasets.load_iris`.
-2.  **Splits the data** into training and testing sets using `train_test_split`.
-3.  **Scales the features** using `StandardScaler` (though for Random Forest, this step is often less critical than for distance-based algorithms).
-4.  **Initializes and trains** a `RandomForestClassifier` on the training data.
-5.  **Makes predictions** on the test data.
-6.  **Evaluates the model** using `accuracy_score`, `classification_report`, and `confusion_matrix`.
-
-The code also includes print statements to display the results of the evaluation.
-
-Therefore, no additional code is needed to fulfill the requirements of `task-1`. The provided code block already accomplishes the task.
+ 
